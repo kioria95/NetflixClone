@@ -1,5 +1,13 @@
 .rows__posters {
   display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+/* Hide scrollbars in the browsers*/
+.rows__posters::-webkit-scrollbar {
+  display: none;
 }
 
 .rows__imageposter {
@@ -11,5 +19,14 @@
 }
 
 .rows__imageposter:hover {
-    transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.row__posterLarge{
+    max-height: 250px;;
+}
+
+
+.row__posterLarge:hover{
+    transform: scale(1.09);
 }
