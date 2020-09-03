@@ -8,7 +8,6 @@ import Nav from './Nav';
 function App() {
   return (
     <div className="app">
-      <h1>Netflix Clone</h1>
       {/*Nav */}
       <Nav />
       {/*Banner */}
