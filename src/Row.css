@@ -1,0 +1,15 @@
+.rows__posters {
+  display: flex;
+}
+
+.rows__imageposter {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.rows__imageposter:hover {
+    transform: scale(1.08);
+}
